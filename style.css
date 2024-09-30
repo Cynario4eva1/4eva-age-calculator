@@ -73,12 +73,10 @@
   background-color: green;
   color:white ;
 }
+
 .input-box button:active{
   opacity: 0.5;
 }
-
-
-
 
 .input-box input::-webkt-calender-picker-indicator{
 top: 0;
@@ -108,3 +106,58 @@ cursor: pointer;
   color: rgb(255, 255, 255);
 }
 
+
+.footer{
+  margin-top: 10%;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 200;
+ }
+
+
+@media only screen and (max-width:450px) {
+  .calculator{
+    width: 90%;
+    border-left: 10px solid #dfca0b;
+    border-left-style: double;
+    margin-top: 25%;
+    margin-left: 5%;
+  }
+
+  .calculator h1{
+    font-size: 30px; 
+  }
+
+  .input-box{
+    width: 90%;
+    margin: 40px 0;
+    padding: 15px;
+  }
+
+  .input-box input{
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .input-box button{
+    font-weight: 500;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  #result{
+    font-size: 18px;
+    color: #f5e344;
+    }
+
+    .footer{
+      margin-top: 50%;
+      font-size: 10px;
+      font-style: italic;
+      text-align: center;
+      font-weight: 200;
+     }
+  
+}
